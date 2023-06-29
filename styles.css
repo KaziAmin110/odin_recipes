@@ -1,8 +1,7 @@
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .main-image {
     width: 450px;
@@ -24,12 +23,16 @@ img {
     padding-left: 23px;
 }
 
-.link-space {
-    padding-top: 23px;
-    padding-bottom: 23px;
+.link-spacing {
+    text-align: center;
+    display: block;
     
 }
 
+.contents {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 body {
     border-style: solid;
